@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-02-01T11:39:27Z",
+  "lastUpdated": "2026-02-01T11:57:39Z",
   "projects": [
     {
       "id": "ralph-dashboard",
       "name": "ralph-dashboard",
       "description": "Ein einfaches Web-Dashboard das alle Ralph-Projekte anzeigt — Status, Fortschritt, und History.",
-      "status": "active",
-      "currentTask": 15,
+      "status": "completed",
+      "currentTask": 17,
       "totalTasks": 17,
       "startedAt": "2026-02-01T15:37:07+04:00",
       "updatedAt": "2026-02-01T15:39:18+04:00",
