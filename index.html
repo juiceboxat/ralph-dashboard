@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralph Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔄 Ralph Dashboard</h1>
+            <p class="subtitle">Autonomous Building Status</p>
+        </header>
+        
+        <main>
+            <section id="active-projects">
+                <h2>🔄 Active Projects</h2>
+                <div class="projects-grid" id="active-grid">
+                    <!-- Rendered by JS -->
+                </div>
+            </section>
+            
+            <section id="completed-projects">
+                <h2>✅ Completed Projects</h2>
+                <div class="projects-grid" id="completed-grid">
+                    <!-- Rendered by JS -->
+                </div>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Last updated: <span id="last-updated">-</span></p>
+            <label class="auto-refresh">
+                <input type="checkbox" id="auto-refresh" checked>
+                Auto-refresh (60s)
+            </label>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
