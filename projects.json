@@ -1,6 +1,19 @@
 {
-  "lastUpdated": "2026-02-01T11:57:39Z",
+  "lastUpdated": "2026-02-01T12:47:03Z",
   "projects": [
+    {
+      "id": "juicebox-limited-builder",
+      "name": "juicebox-limited-builder",
+      "description": "Eine interaktive Web-App auf der JuiceBox-Website, wo Kunden ihre eigene Limited Edition kreieren, b",
+      "status": "active",
+      "currentTask": 0
+0,
+      "totalTasks": 30,
+      "startedAt": "2026-02-01T16:18:24+04:00",
+      "updatedAt": "2026-02-01T16:36:31+04:00",
+      "completedAt": null
+    }
+,
     {
       "id": "ralph-dashboard",
       "name": "ralph-dashboard",
